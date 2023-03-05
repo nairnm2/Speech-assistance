@@ -1,0 +1,33 @@
+<html lang=‘en’>
+	<head>
+		<meta charset=‘utf-8’>
+		<meta name=‘viewpoint’ content=‘width=device-width, initial-scale=1’>
+		<title>Third page.</title>
+    <link rel="stylesheet" href="style.css">
+		<style>
+			.box{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<div class=“box”>
+<html>
+	</head>
+	<body>
+		<script src ="https://code.responsivevoice.org/responsivevoice.js"></script>
+		<div class=“box”>
+ 			<input class="button2" onclick="location.href='index.html'" type="button" value="⬅️ Back to homepage"/>
+		</div>
+	<span>Type your message here ➡️</span>
+
+<input type="text" id="namebox" name="namebox">
+<input class="button" onclick="speakName()"; type="button" value="Speak"/>
+<script>
+			function speakName() {
+				var name = document.getElementById("namebox").value;
+responsiveVoice.speak(name);
+			}
+		</script>
+</body>
+</html>
